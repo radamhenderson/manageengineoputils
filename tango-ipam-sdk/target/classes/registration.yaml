@@ -1,0 +1,19 @@
+---
+name: "ManageEngineOpUtilsIPAM"
+description: "ManageEngine OpUtils integration for vRA"
+version: "1.0"
+
+abxConfig:
+  allocateIPActionId: "ManageEngineOpUtilsIPAM_AllocateIP"
+  deallocateIPActionId: "ManageEngineOpUtilsIPAM_DeallocateIP"
+  validateEndpointActionId: "ManageEngineOpUtilsIPAM_ValidateEndpoint"
+  updateResourceActionId: "ManageEngineOpUtilsIPAM_Update"
+  getIPRangesActionId: "ManageEngineOpUtilsIPAM_GetIPRanges"
+  allocateNetworkActionId: "ManageEngineOpUtilsIPAM_AllocateIPRange"
+  deallocateNetworkActionId: "ManageEngineOpUtilsIPAM_DeallocateIPRange"
+  getIPBlocksActionId: "ManageEngineOpUtilsIPAM_GetIPBlocks"
+
+properties:
+   
+  supportsUpdateRecord: false
+  supportsOnDemandNetworks: false
